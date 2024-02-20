@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 9f6dab0bd51b6b0478d88ef1670ef058
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 44
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ish_walking_up_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 771
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518ebe54a8bea184da964f3d55c0790c
+      internalID: -885745249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 771
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1cc72ef3a813c4ebdbeecfee281c59
+      internalID: -1190718817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43292a355a33dde4c9e956d6d0248bf4
+      internalID: 2103681104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 769
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b1b0b8004e2f547b8729342af73961
+      internalID: -293733921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0dc305ec222e54898fbd2dd4e6f731
+      internalID: -1340349146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 771
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e25f961ec17b584ea5547f425d2393f
+      internalID: 1197835856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e877434f2db77b745843929bc0baf643
+      internalID: -309160879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 769
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3583b7f2734647a4c99762c79a7e6925
+      internalID: 1322302917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_up_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e1c7b45b83afe4badf1181df5d0fc0
+      internalID: -2141121423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 706
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbc95a15171b364894fe0e31b661b36
+      internalID: 35658449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 706
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c582fe6929b38b4bbe6968c34394a0f
+      internalID: -201782466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 707
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29da50f995a523408ff3b6232d9e96a
+      internalID: 1527445253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 707
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f2fbd7eeff6154b86e82c81ef5c8b3
+      internalID: 1958469557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 706
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26a34941869824499f45fd07c48a02e
+      internalID: 815740224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 706
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c9a58d68e1a043abe9a05d7794358
+      internalID: 599010416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 706
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a73cb11b7ae66049b42fd75aecf8e6f
+      internalID: 1111721359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 706
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3561158c30488094f9454dd0a6523e3a
+      internalID: 538746773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_left_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 706
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9029a181035227640bb0a5f6d73a7618
+      internalID: 1554512000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 642
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3373896687060e24c8f9c6a41aace8f1
+      internalID: 1092064962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 642
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f87637f0866034fb473f5fc7e2aadf
+      internalID: -1663743217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aa9a0400e2c0d469b846cc75eebf19
+      internalID: 163102307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 641
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2334a1db4a4a841a8e58b66cfcc89c
+      internalID: -2091053500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f660f4d9dc4864f9315955e11c3d16
+      internalID: -256482651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 642
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e63fdd02512f44bbb59d31a153d1e1
+      internalID: 1579952477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b788aa221bf1b46ad286d7b03f50fc
+      internalID: 1664436371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 641
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5232e340e2751c84ca0264d584eb9f49
+      internalID: 877164459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_down_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c83a652b55ac604e9cde3f8cab5aaa1
+      internalID: 651608821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 578
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2773a66bd68b9a4896f8a63b44c5f44
+      internalID: 2091825025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 578
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da01cbb607dead4e85e726d14b7fdc9
+      internalID: 1055170644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 579
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644b5b1bfe215cd46a32f38a748fb7a7
+      internalID: 1627474312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 579
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a148acaa87c7db4ba977d8502f6605a
+      internalID: 1814113171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 578
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87b19708158073488b0096fead754a0
+      internalID: -775348036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 578
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fecbc88004e1c84babc061c718b7e3d
+      internalID: 1163060695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 578
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66ddc9e9f883ed438f2e6dc115a9f4f
+      internalID: 415597003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 578
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c482131b8c2856a4a8aabb80364860e7
+      internalID: 188690517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ish_walking_right_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 578
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3d54d517682144d998aea95ff46d2f
+      internalID: 2019086444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ish_175: 1825554104
+      Ish_45: -1944762330
+      Ish_walking_right_5: 1163060695
+      Ish_walking_down_6: 1664436371
+      Ish_35: -1982352249
+      Ish_106: -1333505962
+      Ish_59: 676204963
+      Ish_108: 1224814418
+      Ish_39: -1424202942
+      Ish_11: 785429753
+      Ish_142: 968144925
+      Ish_168: 1419025183
+      Ish_37: -699429096
+      Ish_47: -1691908790
+      Ish_103: 527372056
+      Ish_148: 1477026702
+      Ish_walking_left_8: 1554512000
+      Ish_walking_right_3: 1814113171
+      Ish_123: 979196936
+      Ish_153: 1509828774
+      Ish_165: -72313047
+      Ish_167: 402453166
+      Ish_166: -1389406595
+      Ish_131: -581614578
+      Ish_walking_down_4: -256482651
+      Ish_164: -272710192
+      Ish_181: -191285188
+      Ish_43: 192353153
+      Ish_48: -1243487321
+      Ish_12: 733959069
+      Ish_152: 54776383
+      Ish_134: -768438070
+      Ish_169: -494011393
+      Ish_120: 1514767276
+      Ish_50: -226061447
+      Ish_111: -448793876
+      Ish_13: 1936756788
+      Ish_179: -751926289
+      Ish_33: 791534618
+      Ish_110: -1438345685
+      Ish_135: -1318087520
+      Ish_walking_up_5: 1197835856
+      Ish_walking_up_1: -1190718817
+      Ish_49: 994621676
+      Ish_155: 160220384
+      Ish_14: -1757271337
+      Ish_3: 1898354339
+      Ish_122: 2046169211
+      Ish_162: 513204957
+      Ish_21: -11107037
+      Ish_139: 1625417413
+      Ish_115: 1032604556
+      Ish_182: -634642760
+      Ish_119: 1418666151
+      Ish_20: -1597543450
+      Ish_63: -1831451461
+      Ish_105: -1404914015
+      Ish_161: 358233225
+      Ish_150: -1708930884
+      Ish_132: 2075004465
+      Ish_27: -631647561
+      Ish_24: -293518693
+      Ish_30: -1498930293
+      Ish_walking_down_8: 651608821
+      Ish_walking_right_7: 188690517
+      Ish_42: -1546533957
+      Ish_2: -2010759739
+      Ish_109: 1743787523
+      Ish_64: -1766052995
+      Ish_15: 2119462693
+      Ish_58: -1745530185
+      Ish_177: 107287725
+      Ish_114: -1650149619
+      Ish_10: 307713611
+      Ish_51: -1185486052
+      Ish_144: -618808458
+      Ish_41: 331326896
+      Ish_walking_up_8: -2141121423
+      Ish_137: 1270729709
+      Ish_113: 1112498299
+      Ish_walking_right_6: 415597003
+      Ish_22: 527948067
+      Ish_55: 14198033
+      Ish_140: 594593866
+      Ish_walking_left_3: 1958469557
+      Ish_26: -93899090
+      Ish_121: 985660795
+      Ish_walking_up_2: 2103681104
+      Ish_31: -632790538
+      Ish_walking_down_0: 1092064962
+      Ish_44: 1488059869
+      Ish_4: 1975471018
+      Ish_133: 2116380079
+      Ish_40: -2120074943
+      Ish_172: -1185187266
+      Ish_107: 1856460328
+      Ish_147: -2091544844
+      Ish_54: 581527233
+      Ish_walking_up_0: -885745249
+      Ish_25: 277851082
+      Ish_walking_up_3: -293733921
+      Ish_5: 41168513
+      Ish_128: 1004110743
+      Ish_176: -783187220
+      Ish_walking_up_6: -309160879
+      Ish_walking_left_4: 815740224
+      Ish_146: 2020801750
+      Ish_walking_down_2: 163102307
+      Ish_walking_right_2: 1627474312
+      Ish_0: -16282061
+      Ish_52: 169977405
+      Ish_19: 2056278014
+      Ish_walking_left_2: 1527445253
+      Ish_170: 519175129
+      Ish_18: -154905640
+      Ish_38: -1648744128
+      Ish_127: 2130954646
+      Ish_28: -1052866082
+      Ish_walking_up_7: 1322302917
+      Ish_walking_right_4: -775348036
+      Ish_60: -144639417
+      Ish_136: -630610747
+      Ish_180: 545546836
+      Ish_129: 1226449650
+      Ish_36: 1477279929
+      Ish_29: -582640521
+      Ish_159: -851182090
+      Ish_125: -241274079
+      Ish_8: -1532136165
+      Ish_154: 1299665851
+      Ish_46: 2028637061
+      Ish_156: 1928740423
+      Ish_1: -1277630609
+      Ish_124: 91570812
+      Ish_149: 1270978018
+      Ish_160: -945595426
+      Ish_102: -163282507
+      Ish_104: -910888883
+      Ish_walking_down_7: 877164459
+      Ish_173: -1283082352
+      Ish_174: 69165297
+      Ish_walking_left_1: -201782466
+      Ish_16: -798517529
+      Ish_130: 146948489
+      Ish_56: -825800155
+      Ish_57: 924326379
+      Ish_walking_left_0: 35658449
+      Ish_32: -755057881
+      Ish_walking_right_1: 1055170644
+      Ish_9: 1858159161
+      Ish_163: -107636224
+      Ish_walking_down_3: -2091053500
+      Ish_171: -32359525
+      Ish_118: -2134925682
+      Ish_61: -1172016113
+      Ish_141: -1070273865
+      Ish_23: -594843075
+      Ish_178: 606157646
+      Ish_112: 748524869
+      Ish_116: 973618699
+      Ish_34: -744628237
+      Ish_53: -1378953374
+      Ish_117: -38113322
+      Ish_62: 427276705
+      Ish_walking_right_0: 2091825025
+      Ish_101: 1454645624
+      Ish_walking_right_8: 2019086444
+      Ish_walking_left_6: 1111721359
+      Ish_walking_down_1: -1663743217
+      Ish_walking_left_5: 599010416
+      Ish_145: -306196964
+      Ish_walking_down_5: 1579952477
+      Ish_walking_up_4: -1340349146
+      Ish_126: -862815031
+      Ish_17: 465739195
+      Ish_walking_left_7: 538746773
+      Ish_157: -121329592
+      Ish_151: -1666227342
+      Ish_158: 314602472
+      Ish_143: 1675632346
+      Ish_138: 1128628952
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

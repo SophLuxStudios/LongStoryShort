@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 9561623d9f53a69458e54dd1b992b86f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: victorian-market_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2239
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b1a1bd13462b744a6fb97af5113d57
+      internalID: 1824962505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33baf8dc43b2fc4faff9e504e52a1ac
+      internalID: -2027201267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2052
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb7db54dd9fd584b8d23fe2551fcc2c
+      internalID: -1564914417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_30
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1951
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9820caa5326b2741a1677fb4b0b1554
+      internalID: 107868554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_39
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1569
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16911eda0a4a2804c98a457a7118a0bf
+      internalID: -1920897946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1473
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6fcb9def81c544abb9247de09fdbc7
+      internalID: 714487913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_45
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1377
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f131fd492d5d3140802b159a2811ffe
+      internalID: -85923213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1280
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4737e073cbcca14183d439bb6567ff2
+      internalID: 728267820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 708
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c322a36a4d9e7d048af17a7119205f9b
+      internalID: 729955777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 708
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cddaa872b9f33342965e76e38e436a1
+      internalID: -1886131400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorian-market_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 897
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a7bd8e9d0cf141989a829ff68787b
+      internalID: -944790925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      victorian-market_166: 1582349250
+      victorian-market_43: 2038299581
+      victorian-market_131: 1374941254
+      victorian-market_82: 29646150
+      victorian-market_29: 798629857
+      victorian-market_23: 1647775647
+      victorian-market_136: -1484769377
+      victorian-market_49: -1265394078
+      victorian-market_157: 2007354722
+      victorian-market_3: -944790925
+      victorian-market_59: 239448331
+      victorian-market_2: -1886131400
+      victorian-market_148: -429920994
+      victorian-market_118: -598053322
+      victorian-market_103: -1150102168
+      victorian-market_44: -933051012
+      victorian-market_53: 503346405
+      victorian-market_155: 1336759729
+      victorian-market_152: 1469707810
+      victorian-market_54: 343283223
+      victorian-market_133: 1671751064
+      victorian-market_160: 777756722
+      victorian-market_6: 1824962505
+      victorian-market_79: 1285852114
+      victorian-market_135: 862554471
+      victorian-market_149: 1584728685
+      victorian-market_162: -1262894050
+      victorian-market_16: -248590014
+      victorian-market_32: -1576413179
+      victorian-market_45: -85923213
+      victorian-market_161: 348949620
+      victorian-market_10: 864320517
+      victorian-market_99: 156926597
+      victorian-market_46: 2019223016
+      victorian-market_20: -1448257960
+      victorian-market_145: 1728183420
+      victorian-market_75: -2059944244
+      victorian-market_120: -459779973
+      victorian-market_156: 398835429
+      victorian-market_70: -889446082
+      victorian-market_94: 1790337085
+      victorian-market_28: 1424060281
+      victorian-market_72: -264594929
+      victorian-market_52: -1353138942
+      victorian-market_163: -1305918271
+      victorian-market_0: 728267820
+      victorian-market_76: 870652787
+      victorian-market_141: 983476790
+      victorian-market_134: 1340310655
+      victorian-market_8: -520073706
+      victorian-market_127: 1681235612
+      victorian-market_139: 1683315677
+      victorian-market_137: 1368319170
+      victorian-market_108: -1053825278
+      victorian-market_150: -1767442340
+      victorian-market_37: 797649477
+      victorian-market_154: -1678659839
+      victorian-market_98: -2115879011
+      victorian-market_30: 107868554
+      victorian-market_106: -1834864023
+      victorian-market_124: 983823425
+      victorian-market_91: 1114532566
+      victorian-market_63: 1090931038
+      victorian-market_67: -1142743195
+      victorian-market_60: -2111539127
+      victorian-market_62: 911961563
+      victorian-market_125: -727313723
+      victorian-market_112: 1619212154
+      victorian-market_24: -1944314910
+      victorian-market_170: -1376018251
+      victorian-market_12: 818234189
+      victorian-market_119: -632656261
+      victorian-market_71: -897199442
+      victorian-market_14: 2023804740
+      victorian-market_132: 1714696483
+      victorian-market_142: 2147278604
+      victorian-market_26: 792726986
+      victorian-market_84: -715448681
+      victorian-market_114: -2005054241
+      victorian-market_64: -597204432
+      victorian-market_80: 235004209
+      victorian-market_18: -1066674410
+      victorian-market_36: 1845734545
+      victorian-market_164: 72632231
+      victorian-market_35: -1587125905
+      victorian-market_40: -206033543
+      victorian-market_41: 68196206
+      victorian-market_7: 901846494
+      victorian-market_122: -1794335019
+      victorian-market_167: -345396827
+      victorian-market_87: -1576522672
+      victorian-market_168: 398074270
+      victorian-market_50: -1964325071
+      victorian-market_169: 515733520
+      victorian-market_92: -2095328509
+      victorian-market_105: -2087393472
+      victorian-market_109: 338191409
+      victorian-market_100: 1486062150
+      victorian-market_126: 125895733
+      victorian-market_19: -327906910
+      victorian-market_123: -1226009617
+      victorian-market_81: -502789040
+      victorian-market_66: -1630300054
+      victorian-market_4: -444719935
+      victorian-market_27: 709526788
+      victorian-market_101: -1382096434
+      victorian-market_121: 46101898
+      victorian-market_39: -1920897946
+      victorian-market_143: 83154367
+      victorian-market_38: 2065502376
+      victorian-market_58: 824341586
+      victorian-market_140: 757332392
+      victorian-market_17: -1564914417
+      victorian-market_74: 1049938463
+      victorian-market_96: 834194104
+      victorian-market_158: -1318972865
+      victorian-market_15: -2027201267
+      victorian-market_117: 1543610711
+      victorian-market_5: 1456189283
+      victorian-market_115: -56403170
+      victorian-market_22: -676539521
+      victorian-market_102: -71375375
+      victorian-market_113: 492075739
+      victorian-market_78: 1453435427
+      victorian-market_159: -507377116
+      victorian-market_56: 1815646137
+      victorian-market_9: 1291971576
+      victorian-market_86: 1512796533
+      victorian-market_11: -1317606902
+      victorian-market_69: -739830158
+      victorian-market_146: 833278450
+      victorian-market_77: -1265277920
+      victorian-market_83: 1349078887
+      victorian-market_104: -48878956
+      victorian-market_55: 1924703850
+      victorian-market_85: 1388290987
+      victorian-market_153: 1240842500
+      victorian-market_144: -1875439871
+      victorian-market_61: 2002268500
+      victorian-market_57: 1149540210
+      victorian-market_73: -649185792
+      victorian-market_47: -1472228662
+      victorian-market_65: 1929083724
+      victorian-market_95: -1003308095
+      victorian-market_110: 1744507453
+      victorian-market_147: 694137006
+      victorian-market_31: 1362734251
+      victorian-market_42: 714487913
+      victorian-market_68: 335514382
+      victorian-market_138: -1015124154
+      victorian-market_97: 1286555004
+      victorian-market_129: 1875931926
+      victorian-market_107: -1326072859
+      victorian-market_33: 1681324837
+      victorian-market_111: 826842625
+      victorian-market_165: -20327405
+      victorian-market_93: 831488649
+      victorian-market_13: 1181278736
+      victorian-market_34: -2030218948
+      victorian-market_48: -1130229628
+      victorian-market_130: -446617026
+      victorian-market_25: 48837050
+      victorian-market_88: -708167851
+      victorian-market_128: 1791782882
+      victorian-market_90: -527155509
+      victorian-market_89: -492710964
+      victorian-market_1: 729955777
+      victorian-market_21: 716058263
+      victorian-market_51: -1027384342
+      victorian-market_151: -486004030
+      victorian-market_116: 1403146370
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

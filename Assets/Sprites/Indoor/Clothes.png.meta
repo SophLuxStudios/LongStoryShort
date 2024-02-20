@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: ba035e661c3a1a54d8e6d93edc0e3f37
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clothes_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2216
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e08e8e64d9d65047ab9c0105e7af4a8
+      internalID: -894164514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clothes_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1953
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acffcb77a9240924083bc4940d2fc8d5
+      internalID: 1407244232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clothes_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1829
+        width: 125
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c205d4395223f04fac26101f7ff0ea7
+      internalID: 700282960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clothes_64
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1185
+        width: 124
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd24ac85dea2e145b5746b090ca0181
+      internalID: -690371860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clothes_75
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1045
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acba2deb52a0a624b9e187ae7a12b82f
+      internalID: 78949639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clothes_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 526
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b25a84c293085f449c07853c8bf0070
+      internalID: -373874863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clothes_137
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 126
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47e154e678ca7e439b8248fb18f1e86
+      internalID: 60658401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Clothes_31: -661967703
+      Clothes_41: -1912411929
+      Clothes_62: -249184813
+      Clothes_130: 1325301208
+      Clothes_94: -825416973
+      Clothes_74: 1108484585
+      Clothes_11: 1965534648
+      Clothes_54: 775398888
+      Clothes_83: 908719783
+      Clothes_70: -1170738708
+      Clothes_2: -84203441
+      Clothes_19: -288966169
+      Clothes_47: 1474580668
+      Clothes_88: 590924826
+      Clothes_26: 700282960
+      Clothes_132: 1031272686
+      Clothes_77: 1610434090
+      Clothes_45: -1703955318
+      Clothes_6: -1375833392
+      Clothes_7: -772859427
+      Clothes_89: 1495219516
+      Clothes_92: -96215913
+      Clothes_4: -1727287902
+      Clothes_57: -153836232
+      Clothes_115: 204192018
+      Clothes_108: 752158077
+      Clothes_141: -653690744
+      Clothes_129: -2088643933
+      Clothes_30: 104906573
+      Clothes_58: 1025485281
+      Clothes_44: -857646706
+      Clothes_128: 1222634683
+      Clothes_81: 1124698795
+      Clothes_66: -765597070
+      Clothes_13: 1112853016
+      Clothes_127: -211954307
+      Clothes_139: -459551346
+      Clothes_121: 813548308
+      Clothes_106: -373874863
+      Clothes_124: 846047215
+      Clothes_143: 429973544
+      Clothes_86: -1650006282
+      Clothes_123: -723820874
+      Clothes_9: -2101143009
+      Clothes_1: -950082235
+      Clothes_68: 466756660
+      Clothes_60: -950183630
+      Clothes_38: 13190350
+      Clothes_10: 451143495
+      Clothes_25: 1118995078
+      Clothes_101: -1190157738
+      Clothes_116: 507695999
+      Clothes_102: -1653936681
+      Clothes_136: -1491469025
+      Clothes_55: -1694254244
+      Clothes_22: 761534392
+      Clothes_72: 829982666
+      Clothes_75: 78949639
+      Clothes_71: 712917985
+      Clothes_53: -2077437170
+      Clothes_131: 476233368
+      Clothes_35: 53508505
+      Clothes_34: -665462174
+      Clothes_23: 383665288
+      Clothes_61: -733336656
+      Clothes_48: -406012044
+      Clothes_85: 1781906365
+      Clothes_28: 1727022460
+      Clothes_80: -1582371117
+      Clothes_111: -1815718308
+      Clothes_142: -936991057
+      Clothes_120: -660116829
+      Clothes_5: -894164514
+      Clothes_118: -1334305193
+      Clothes_27: -1860374387
+      Clothes_36: 2017362461
+      Clothes_95: -1374642584
+      Clothes_33: -774558201
+      Clothes_14: 720038339
+      Clothes_93: 934316648
+      Clothes_133: -711733468
+      Clothes_113: 1435441109
+      Clothes_90: 1880290399
+      Clothes_15: 1194729987
+      Clothes_78: -1984403912
+      Clothes_138: -2050316521
+      Clothes_8: 1925483937
+      Clothes_79: 1401404858
+      Clothes_42: -1577306310
+      Clothes_117: 944060681
+      Clothes_98: -311186936
+      Clothes_46: -1104228755
+      Clothes_140: -229864995
+      Clothes_50: 949710417
+      Clothes_107: 228427372
+      Clothes_97: -2145767614
+      Clothes_126: -2039737244
+      Clothes_20: -1253946478
+      Clothes_40: 1697425709
+      Clothes_109: -1239326846
+      Clothes_49: -523301296
+      Clothes_17: 1659804707
+      Clothes_110: 1952094431
+      Clothes_69: 216378109
+      Clothes_37: -136066246
+      Clothes_84: 658891121
+      Clothes_73: 362743886
+      Clothes_112: 2009160423
+      Clothes_100: 1724004251
+      Clothes_135: -215846042
+      Clothes_87: 1439574042
+      Clothes_91: -2091811908
+      Clothes_103: -1906810154
+      Clothes_52: 456244597
+      Clothes_134: -726711151
+      Clothes_76: 285745147
+      Clothes_114: 155888503
+      Clothes_65: -1275489357
+      Clothes_18: 1407244232
+      Clothes_51: -1222549945
+      Clothes_12: -1658920143
+      Clothes_16: 1503948021
+      Clothes_137: 60658401
+      Clothes_43: 97800294
+      Clothes_0: -2033689487
+      Clothes_119: 1341043228
+      Clothes_29: 1976091068
+      Clothes_24: 1689222762
+      Clothes_64: -690371860
+      Clothes_32: 1602680577
+      Clothes_96: -979584086
+      Clothes_99: 152682030
+      Clothes_56: -816458548
+      Clothes_67: 121798806
+      Clothes_122: 1463370420
+      Clothes_3: -927905778
+      Clothes_63: -2099945948
+      Clothes_105: 350875319
+      Clothes_39: 1088673994
+      Clothes_125: 575518453
+      Clothes_82: 1319894358
+      Clothes_59: 1712628831
+      Clothes_21: -1316179533
+      Clothes_104: -1188638566
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

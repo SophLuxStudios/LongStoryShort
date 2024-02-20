@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: f3a106db45227bb4fa4d6e9e1fbc1ab4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: upholstery_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 961
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7a1ca23d3b710479f85b9882286c18
+      internalID: -29174498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 873
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eba0e918a3e72e4fbd1d14a009c626b
+      internalID: 258022466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 873
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28bf011c07a2204eb05474392dd6088
+      internalID: 2063164826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 736
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f347ff386a06dc74e9987724f51953ff
+      internalID: -1346507236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 805
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81c16e0cf9b7c04dad104c536db685e
+      internalID: 559262090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 736
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646f90737f68b448a9b9f4b624b826f
+      internalID: 1417314548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 710
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb413c76e86d2104b91ac3b60722712a
+      internalID: 488511357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 711
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcedd2b80ae9c184b8df5756a04b4127
+      internalID: -1943980586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 678
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5562e790a6181498ef63f792fca565
+      internalID: -1168946663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 459
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbbec95f8583c94b95c29a7c60a1b18
+      internalID: 271056693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 491
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bbb06f6f5fe174783172ff10b1ea9b
+      internalID: -1860552543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upholstery_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 736
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e734ffd022b62de409479dc96d789361
+      internalID: -1435845566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      upholstery_52: 271056693
+      upholstery_13: -596280513
+      upholstery_60: -970087400
+      upholstery_48: -877410397
+      upholstery_34: 1948661916
+      upholstery_6: 119389441
+      upholstery_45: -1446602045
+      upholstery_39: 1175344357
+      upholstery_38: 1704708146
+      upholstery_44: -780500936
+      upholstery_49: 1798090958
+      upholstery_31: 488511357
+      upholstery_2: -1435845566
+      upholstery_22: 1541932399
+      upholstery_43: -1860552543
+      upholstery_7: 1407539198
+      upholstery_15: 258022466
+      upholstery_5: -806201688
+      upholstery_30: -1766995147
+      upholstery_56: 2111617416
+      upholstery_27: -1913976455
+      upholstery_20: -512254823
+      upholstery_29: 1417314548
+      upholstery_35: -1534745533
+      upholstery_24: 2108060842
+      upholstery_14: 799079942
+      upholstery_42: 680676699
+      upholstery_53: -1045603876
+      upholstery_10: 1456703812
+      upholstery_46: -1515279637
+      upholstery_3: -687335122
+      upholstery_57: -1731288650
+      upholstery_55: 1509978956
+      upholstery_25: -1324117866
+      upholstery_58: 936725225
+      upholstery_37: -1168946663
+      upholstery_41: -605540423
+      upholstery_59: -1054891820
+      upholstery_51: -251541687
+      upholstery_28: -499919144
+      upholstery_54: -464597168
+      upholstery_47: -1292742435
+      upholstery_1: -29174498
+      upholstery_50: 213523316
+      upholstery_36: -1615895463
+      upholstery_4: -89806713
+      upholstery_12: -597277364
+      upholstery_26: 304992220
+      upholstery_23: 559262090
+      upholstery_33: 270583373
+      upholstery_18: -792504513
+      upholstery_9: -1823691014
+      upholstery_17: -1346507236
+      upholstery_40: 1972393800
+      upholstery_32: -1943980586
+      upholstery_19: 241467292
+      upholstery_0: -253299722
+      upholstery_11: -328678517
+      upholstery_21: -1477491330
+      upholstery_16: 2063164826
+      upholstery_8: -464121947
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

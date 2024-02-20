@@ -1,0 +1,1073 @@
+fileFormatVersion: 2
+guid: 36dca9c19244b3144921f7b59e694a90
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 44
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 771
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792683c599000544e9a63428f3f1a7a1
+      internalID: -612327237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 771
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f346234577c7243b49d11ee6ee8ed2
+      internalID: -1340451012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bb45e078454274b8f2f76ddc9454e5
+      internalID: 537178075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 769
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f080186298d0f54f95b4c7abea5c56c
+      internalID: -790057773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e14da365f432be4381ec7480f047aac
+      internalID: 1304024079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 771
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94894108c5252134190a9694caf0f341
+      internalID: 1124383192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c529ebc321ba0408ff5693ef9eb485
+      internalID: 538499867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 769
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914c7e6cb7c174746b5d0cb4b8cdeb59
+      internalID: -2072438437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Up_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 770
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0079f248989b9f249ac661372bfeec84
+      internalID: -1533833058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 706
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78be63eb0e45a044f92db5c63079398d
+      internalID: 2098071779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 706
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee76d5b068875634db063e66e07f6cf4
+      internalID: 1107075463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 707
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb904dde4cfb14c8d90796c6b86cb0
+      internalID: -2113559581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 707
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0851906feee4241469aea45a2d080a90
+      internalID: -1604599342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 706
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69546836a2636a9439d2774fcc12e0eb
+      internalID: -620128505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 706
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278a21af6a5f01446a09233483a3e767
+      internalID: -1034524630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 706
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c42f7a58b20154398773e1b9a2a5c0
+      internalID: 1916461265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 706
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3157af08a9cbcd04e8d4f55f42d1d68c
+      internalID: 1819030527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Left_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 706
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867610a5dc2d56a42a4b9e1c54e36e5a
+      internalID: -1771540926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 642
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d2b79af2b10945b337987f8f69160
+      internalID: -222903131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 642
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16459e33ceaa16b489e90f08009526ed
+      internalID: -541864943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda86c401c5b1d044a9dae7d7d9a4690
+      internalID: -1292166114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 641
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc18f4329ece6074588d1cc11034473e
+      internalID: 2078368238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e729d0bb1c477149906049d2a77d165
+      internalID: 432610636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 642
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca78fecc7b19c2b42b9e3ca8ad09326b
+      internalID: 1667006915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f6077fa501044788cd5ca13d94f59
+      internalID: 1796732539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 641
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf89946a955d04aae80e5b032cba87
+      internalID: 995110749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Down_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 641
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54981b382375154cb6fa3b8b3737fa3
+      internalID: -1387490090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 578
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a69215e666c465469a3d7ed7bdbc8ad
+      internalID: -56692261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 578
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db8fab64b956ef468e21f499e8f078e
+      internalID: 132554363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 579
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838c53e6bd5b28c4391e50fc26fcc0ad
+      internalID: 1310660038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 579
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5098e1e4a5cd8847833d982d6a5d0ac
+      internalID: -48025394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 578
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a12580fcfc83748ad31caebe692b03
+      internalID: -70846787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 578
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adb0b220863a7349ae6d90dd228f2fe
+      internalID: 1484518834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 578
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faf39fb33d4e10439a548c86f352080
+      internalID: 59481283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 578
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aa96d97a76fe345b2811afa87fcac2
+      internalID: 1879458456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackFigure_Walk_Right_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 578
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17ac9ed8606d114694133b2fc3f8cf2
+      internalID: 197846144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlackFigure_152: -1581059866
+      BlackFigure_31: -223515040
+      BlackFigure_Walk_Right_8: 197846144
+      BlackFigure_14: 1354161303
+      BlackFigure_132: -267546017
+      BlackFigure_Walk_Up_2: 537178075
+      BlackFigure_180: 938363350
+      BlackFigure_137: 857272452
+      BlackFigure_163: -1462505466
+      BlackFigure_52: 1434296591
+      BlackFigure_149: -1192708165
+      BlackFigure_133: -913457342
+      BlackFigure_8: -877757222
+      BlackFigure_41: 1438074321
+      BlackFigure_59: 251531554
+      BlackFigure_123: -988104439
+      BlackFigure_50: -551736332
+      BlackFigure_136: -532501933
+      BlackFigure_115: -219457154
+      BlackFigure_Walk_Right_0: -56692261
+      BlackFigure_60: -843241340
+      BlackFigure_Walk_Up_8: -1533833058
+      BlackFigure_Walk_Left_5: -1034524630
+      BlackFigure_11: 1676573061
+      BlackFigure_134: 1569184494
+      BlackFigure_Walk_Down_1: -541864943
+      BlackFigure_48: -1435763460
+      BlackFigure_Walk_Up_6: 538499867
+      BlackFigure_45: -1420201730
+      BlackFigure_106: 241717466
+      BlackFigure_122: 819207388
+      BlackFigure_113: 148099965
+      BlackFigure_Walk_Right_1: 132554363
+      BlackFigure_Walk_Left_3: -1604599342
+      BlackFigure_55: -644817202
+      BlackFigure_9: 1144605167
+      BlackFigure_140: -1330538952
+      BlackFigure_Walk_Up_7: -2072438437
+      BlackFigure_21: 2048679390
+      BlackFigure_124: -1967310556
+      BlackFigure_Walk_Down_8: -1387490090
+      BlackFigure_170: -809661389
+      BlackFigure_19: 1454408635
+      BlackFigure_119: 86763403
+      BlackFigure_Walk_Left_1: 1107075463
+      BlackFigure_110: 1467078783
+      BlackFigure_169: 1356757776
+      BlackFigure_120: 1318915057
+      BlackFigure_Walk_Right_4: -70846787
+      BlackFigure_158: -1769623247
+      BlackFigure_181: -1726742199
+      BlackFigure_117: 1849098131
+      BlackFigure_0: 1712672394
+      BlackFigure_27: -1666522346
+      BlackFigure_Walk_Left_4: -620128505
+      BlackFigure_118: 35162387
+      BlackFigure_114: 1023519993
+      BlackFigure_173: 1258063436
+      BlackFigure_126: 1588767843
+      BlackFigure_Walk_Down_5: 1667006915
+      BlackFigure_116: -887289519
+      BlackFigure_Walk_Right_2: 1310660038
+      BlackFigure_178: -102146434
+      BlackFigure_155: 2005816255
+      BlackFigure_7: 903763812
+      BlackFigure_Walk_Down_3: 2078368238
+      BlackFigure_39: 2881177
+      BlackFigure_146: -2055060611
+      BlackFigure_Walk_Up_5: 1124383192
+      BlackFigure_2: -1522190281
+      BlackFigure_22: -430447975
+      BlackFigure_40: 841419954
+      BlackFigure_16: 806797171
+      BlackFigure_18: 560575067
+      BlackFigure_108: -992392908
+      BlackFigure_42: 1714440586
+      BlackFigure_35: -1131266576
+      BlackFigure_127: 1598044274
+      BlackFigure_54: 1115107289
+      BlackFigure_5: -271117683
+      BlackFigure_174: -655668773
+      BlackFigure_107: 476986706
+      BlackFigure_102: 1753637812
+      BlackFigure_Walk_Right_3: -48025394
+      BlackFigure_167: -442853787
+      BlackFigure_Walk_Up_3: -790057773
+      BlackFigure_144: -724454271
+      BlackFigure_23: 1731741966
+      BlackFigure_63: 1285752498
+      BlackFigure_62: -259819250
+      BlackFigure_177: 1851214091
+      BlackFigure_44: 62874783
+      BlackFigure_105: 1731146417
+      BlackFigure_32: -1269613160
+      BlackFigure_112: -576032521
+      BlackFigure_Walk_Down_7: 995110749
+      BlackFigure_38: 1983986404
+      BlackFigure_161: -327521471
+      BlackFigure_30: -1129195708
+      BlackFigure_26: -1985515100
+      BlackFigure_Walk_Left_2: -2113559581
+      BlackFigure_153: -1429115114
+      BlackFigure_157: 383511341
+      BlackFigure_61: -2091489380
+      BlackFigure_162: 1441778273
+      BlackFigure_130: 946412904
+      BlackFigure_13: -1686888548
+      BlackFigure_151: 1769248957
+      BlackFigure_51: 601249390
+      BlackFigure_Walk_Right_5: 1484518834
+      BlackFigure_15: -1480647102
+      BlackFigure_109: 22595021
+      BlackFigure_135: 2143498083
+      BlackFigure_168: -1796112807
+      BlackFigure_166: 1827303809
+      BlackFigure_154: -1659622348
+      BlackFigure_103: -709444482
+      BlackFigure_Walk_Left_8: -1771540926
+      BlackFigure_171: -173230688
+      BlackFigure_17: -1899310285
+      BlackFigure_53: 351183222
+      BlackFigure_145: 2120175502
+      BlackFigure_150: -756472681
+      BlackFigure_164: 1305085468
+      BlackFigure_57: 1625721074
+      BlackFigure_156: 1688893143
+      BlackFigure_Walk_Right_7: 1879458456
+      BlackFigure_172: 1345516956
+      BlackFigure_101: 1533359106
+      BlackFigure_47: 141742967
+      BlackFigure_159: -1864612119
+      BlackFigure_Walk_Left_6: 1916461265
+      BlackFigure_182: 1892505721
+      BlackFigure_129: 1616053714
+      BlackFigure_33: 1091074252
+      BlackFigure_111: 689876190
+      BlackFigure_Walk_Up_0: -612327237
+      BlackFigure_142: 756478620
+      BlackFigure_Walk_Right_6: 59481283
+      BlackFigure_10: 30979970
+      BlackFigure_125: -1713844548
+      BlackFigure_24: -556266444
+      BlackFigure_29: 467047688
+      BlackFigure_138: -634701026
+      BlackFigure_Walk_Down_0: -222903131
+      BlackFigure_Walk_Up_1: -1340451012
+      BlackFigure_176: 1554232546
+      BlackFigure_1: -1095166256
+      BlackFigure_36: -106650974
+      BlackFigure_175: 946882775
+      BlackFigure_165: 1636828316
+      BlackFigure_Walk_Up_4: 1304024079
+      BlackFigure_Walk_Down_4: 432610636
+      BlackFigure_Walk_Left_7: 1819030527
+      BlackFigure_Walk_Left_0: 2098071779
+      BlackFigure_37: -1235205214
+      BlackFigure_Walk_Down_6: 1796732539
+      BlackFigure_179: -349337217
+      BlackFigure_121: -1993255310
+      BlackFigure_64: -804888217
+      BlackFigure_104: -1996240625
+      BlackFigure_128: -27660985
+      BlackFigure_148: 1301179091
+      BlackFigure_34: 1082646718
+      BlackFigure_56: -2131626172
+      BlackFigure_131: 197713968
+      BlackFigure_58: -1838454160
+      BlackFigure_147: -1073604358
+      BlackFigure_3: 1994194633
+      BlackFigure_25: 276374255
+      BlackFigure_20: -2085747586
+      BlackFigure_141: 823595182
+      BlackFigure_4: 731996220
+      BlackFigure_46: -4514422
+      BlackFigure_143: 1894789839
+      BlackFigure_160: -1095663240
+      BlackFigure_28: -317398027
+      BlackFigure_43: 133873568
+      BlackFigure_49: 1985723035
+      BlackFigure_139: -1879444640
+      BlackFigure_12: 1025152362
+      BlackFigure_Walk_Down_2: -1292166114
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

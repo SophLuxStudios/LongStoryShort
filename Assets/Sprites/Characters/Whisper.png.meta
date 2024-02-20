@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: ae6fdc76f6175164fa6e1909aa5251df
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whisperLying
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5df00cd97cdc468b25640adf677dc
+      internalID: 1846220292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whisper_avatar
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 168
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6797d6fdd269d4418a5cdafa40704ab
+      internalID: -996804529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whisper_0
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 231
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf8697684c0804183f2848a411d1fb
+      internalID: 1817370012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cat_5: -1430855045
+      cat_10: -986459836
+      cat_22: 2052282785
+      cat_11: -761097233
+      cat_36: -295688181
+      cat_32: 2102301034
+      cat_25: 8950551
+      cat_43: 289168763
+      cat_4: -1210160471
+      cat_21: 1160034907
+      cat_26: 1211512
+      cat_24: 1297138085
+      cat_31: -1020825191
+      cat_48: 327916128
+      cat_63: 1976258099
+      cat_18: 976726407
+      cat_19: -2025032774
+      cat_61: 1741609897
+      cat_65: -796358758
+      cat_29: 95662121
+      Whisper_1: 722433065
+      cat_0: 773096275
+      cat_64: -1110433225
+      cat_68: -1646945506
+      cat_50: 1976832646
+      cat_2: 221142039
+      cat_15: 447457495
+      cat_6: 49721364
+      Whisper_0: 1817370012
+      cat_44: -1087360617
+      cat_3: -197726250
+      cat_66: -774838979
+      cat_28: 1589307638
+      cat_58: 1135841871
+      cat_67: 512419202
+      cat_30: 1948041667
+      cat_1: -1974673357
+      cat_12: -1490574185
+      cat_59: -265358320
+      cat_69: 984763790
+      cat_52: 2002817829
+      cat_45: -1969692562
+      cat_49: 1129977215
+      cat_14: 312429045
+      cat_53: 331472475
+      whisperLying: 1846220292
+      cat_7: 964226556
+      cat_16: -1362857496
+      cat_8: 920724362
+      cat_39: 1787305375
+      cat_13: -1042723010
+      cat_42: -315571613
+      cat_51: 168043230
+      cat_54: -1226152646
+      cat_37: 1050213432
+      cat_41: 2004427822
+      cat_56: 2113149749
+      cat_57: -1538805674
+      Whisper_avatar: -996804529
+      cat_9: -444523937
+      cat_34: 767794407
+      cat_62: 587802702
+      cat_23: -236344724
+      cat_27: 1137512729
+      cat_70: -1726155425
+      cat_20: 816010129
+      cat_47: -1417907455
+      cat_35: -1830900233
+      cat_60: -1193222878
+      cat_38: -1685038937
+      cat_33: -1425301377
+      cat_40: -540829212
+      cat_71: 991289516
+      cat_17: 181546239
+      cat_46: 1125955527
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
