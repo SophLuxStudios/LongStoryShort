@@ -41,18 +41,18 @@ public class SpaceCraft : MonoBehaviour
 
         if(transform.position.x > -3.5f && transform.position.x < 3.5f)
         {
-            rb.MovePosition(rb.position + (movementInput * movementSpeed * Time.fixedDeltaTime) + forwardMovement);
+            rb.MovePosition(rb.position + (movementSpeed * Time.fixedDeltaTime * movementInput) + forwardMovement);
         }
         else if(transform.position.x <= -3.5f)
         {
             if(movementInput.x < 0)
             {
                 Vector2 direction = new Vector2(0, movementInput.y);
-                rb.MovePosition(rb.position + (direction * movementSpeed * Time.fixedDeltaTime) + forwardMovement);
+                rb.MovePosition(rb.position + (movementSpeed * Time.fixedDeltaTime * direction) + forwardMovement);
             }
             else
             {
-                rb.MovePosition(rb.position + (movementInput * movementSpeed * Time.fixedDeltaTime) + forwardMovement);
+                rb.MovePosition(rb.position + (movementSpeed * Time.fixedDeltaTime * movementInput) + forwardMovement);
             }
         }
         else if(transform.position.x >= 3.5f)
@@ -60,11 +60,11 @@ public class SpaceCraft : MonoBehaviour
             if(movementInput.x > 0)
             {
                 Vector2 direction = new Vector2(0, movementInput.y);
-                rb.MovePosition(rb.position + (direction * movementSpeed * Time.fixedDeltaTime) + forwardMovement);
+                rb.MovePosition(rb.position + (movementSpeed * Time.fixedDeltaTime * direction) + forwardMovement);
             }
             else
             {
-                rb.MovePosition(rb.position + (movementInput * movementSpeed * Time.fixedDeltaTime) + forwardMovement);
+                rb.MovePosition(rb.position + (movementSpeed * Time.fixedDeltaTime * movementInput) + forwardMovement);
             }
         }
     }

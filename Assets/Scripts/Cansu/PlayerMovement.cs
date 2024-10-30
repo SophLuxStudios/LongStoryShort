@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
 
             if(count == 0) //No collision
             {
-                rb.MovePosition(rb.position + (direction * movementSpeed * Time.fixedDeltaTime));
+                rb.MovePosition(rb.position + (movementSpeed * Time.fixedDeltaTime * direction));
                 return true;
             }
             else
