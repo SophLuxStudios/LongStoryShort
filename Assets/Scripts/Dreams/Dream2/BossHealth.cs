@@ -3,15 +3,15 @@ using UnityEngine.UI;
 
 public class BossHealth : MonoBehaviour
 {
-    private Slider bossHealtBar;
+    private Slider bossHealthBar;
 
     void Start()
     {
-        bossHealtBar = GetComponent<Slider>();
+        bossHealthBar = GetComponent<Slider>();
     }
 
     public void DecreaseBossHealth()
     {
-        bossHealtBar.value--;
+        bossHealthBar.value--;
     }
 }

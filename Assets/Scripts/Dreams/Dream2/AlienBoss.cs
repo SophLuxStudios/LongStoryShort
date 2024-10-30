@@ -25,7 +25,7 @@ public class AlienBoss : MonoBehaviour
             firePoints[i] = transform.GetChild(i);
         }
 
-        InvokeRepeating("Fire", 1f, 1f);
+        InvokeRepeating(nameof(Fire), 1f, 1f);
     }
 
     void Update()
@@ -35,7 +35,7 @@ public class AlienBoss : MonoBehaviour
 
     private void Movement()
     {
-        transform.position = new Vector3((Mathf.PingPong(Time.time * speed, length) - length/2), (spaceCraft.position.y + 10), 0);
+        transform.position = new Vector3(Mathf.PingPong(Time.time * speed, length) - length/2, spaceCraft.position.y + 10, 0);
     }
 
     private void Fire()
@@ -55,7 +55,6 @@ public class AlienBoss : MonoBehaviour
 
             GameObject projectile = objectPooler.SpawnFromPool(shipTag, firePoints[i].position, firePoints[i].rotation);
             projectile.GetComponent<AlienProjectile>().OnObjectSpawn(shipTag);
-            projectile = null;
         }
     }
 

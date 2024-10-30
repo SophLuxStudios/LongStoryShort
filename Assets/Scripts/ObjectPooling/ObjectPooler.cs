@@ -13,6 +13,7 @@ public class ObjectPooler : MonoBehaviour
 
     public List<Pool> pools;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
+    private Dictionary<string, GameObject> prefabDictionary;
 
     //Singleton
     public static ObjectPooler Instance;
@@ -25,6 +26,7 @@ public class ObjectPooler : MonoBehaviour
     void Start()
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
+        prefabDictionary = new Dictionary<string, GameObject>();
 
         foreach(Pool pool in pools)
         {
@@ -39,6 +41,7 @@ public class ObjectPooler : MonoBehaviour
             }
 
             poolDictionary.Add(pool.tag, objectPool);
+            prefabDictionary.Add(pool.tag, pool.prefab);
         }
     }
 
@@ -50,10 +53,10 @@ public class ObjectPooler : MonoBehaviour
             return null;
         }
 
-        GameObject objectToSpawn = null;
+        GameObject objectToSpawn;
 
         //Dequeue from pool
-        if(poolDictionary[tag].Count > 0)
+        if (poolDictionary[tag].Count > 0)
         {
             //Debug.Log("Remaining " + tag + " count in pool is: " + poolDictionary[tag].Count);
             objectToSpawn = poolDictionary[tag].Dequeue();
@@ -61,17 +64,12 @@ public class ObjectPooler : MonoBehaviour
         else//if none remaining in the pool instantiate a new pool object
         {
             Debug.Log("New" + tag + " prefab created.");
-            foreach(Pool pool in pools)
-            {
-                if(pool.tag == tag)
-                {
-                    objectToSpawn = Instantiate(pool.prefab);
-                }
-            }
+            objectToSpawn = Instantiate(prefabDictionary[tag]);
         }
 
         objectToSpawn.SetActive(true);
         objectToSpawn.transform.SetPositionAndRotation(position, rotation);
+
         return objectToSpawn;
     }
 
