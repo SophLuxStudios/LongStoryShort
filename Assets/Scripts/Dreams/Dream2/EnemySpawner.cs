@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         objectPooler = ObjectPooler.Instance;
-        Invoke("SpawnEnemy", .5f);
+        Invoke(nameof(SpawnEnemy), .5f);
     }
 
     public void SpawnEnemy()

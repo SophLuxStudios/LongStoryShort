@@ -4,7 +4,7 @@ using TMPro;
 
 public class Quest : MonoBehaviour
 {
-    //Used class'
+    //Used classes
     private CameraShake cameraShake;
     private DialogueManager dialogueManager;
     private Tina tina;
@@ -14,7 +14,6 @@ public class Quest : MonoBehaviour
     [SerializeField] GameObject market;
     [SerializeField] GameObject menu;
     [SerializeField] GameObject ish;
-    private bool goneToDentist;
 
     //UI
     private GameObject questButton;
@@ -90,7 +89,7 @@ public class Quest : MonoBehaviour
             PlayerPrefs.GetInt("GoneToTheDentist", 0) == 0)
             {
                 PlayerPrefs.SetString("CurrentQuest", "Go to the dentist.");
-                ////Tina does not follow
+                ///Tina does not follow
                 ///Door says dentist
             }
             else
@@ -99,7 +98,7 @@ public class Quest : MonoBehaviour
             }
         }
 
-        Invoke("NewQuestGiven", 2f);
+        Invoke(nameof(NewQuestGiven), 2f);
     }
 
     private void GiveOutdoorQuest(bool isShit)
@@ -142,7 +141,7 @@ public class Quest : MonoBehaviour
             }
         }
 
-        Invoke("NewQuestGiven", 2.5f);
+        Invoke(nameof(NewQuestGiven), 2.5f);
     }
 
     IEnumerator WaitThenDisplayDialogue(float seconds, string speaker, string dialogue)
@@ -200,7 +199,7 @@ public class Quest : MonoBehaviour
         questButton.SetActive(false);
         questListPanel.SetActive(true);
 
-        Invoke("CloseQuestListPanel", 4f);
+        Invoke(nameof(CloseQuestListPanel), 4f);
     }
 
     private void CloseQuestListPanel()

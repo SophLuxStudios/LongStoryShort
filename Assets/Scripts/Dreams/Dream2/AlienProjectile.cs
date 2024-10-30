@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class AlienProjectile : MonoBehaviour
 {
+    //private fields
     private const float speed = 10f;
     private const float lifeSpan = 1f;
     private ObjectPooler objectPooler;
@@ -14,12 +15,12 @@ public class AlienProjectile : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime * Vector3.right);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player")
+        if(other.CompareTag("Player"))
         {
             OnObjectReadyToEnqueue();
         }
@@ -28,7 +29,7 @@ public class AlienProjectile : MonoBehaviour
     public void OnObjectSpawn(string projectileName)
     {
         CancelInvoke();
-        Invoke("OnObjectReadyToEnqueue", lifeSpan);
+        Invoke(nameof(OnObjectReadyToEnqueue), lifeSpan);
         projectileTag = projectileName;
     }
 

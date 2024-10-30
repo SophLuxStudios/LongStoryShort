@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class SpaceCraft : MonoBehaviour
 {
-    //used class'
+    //used classes
     private SpaceShooterCamera spaceShooterCamera;
     private ObjectPooler objectPooler;
 
@@ -105,7 +105,7 @@ public class SpaceCraft : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "EnemyBullet")
+        if(other.CompareTag("EnemyBullet"))
         {
             other.GetComponent<AlienProjectile>().OnObjectReadyToEnqueue();
             StartCoroutine(CameraShakeCoroutine(0.2f));
@@ -114,13 +114,13 @@ public class SpaceCraft : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Enemy")
+        if(collision.collider.CompareTag("Enemy"))
         {
             GameObject explosion = objectPooler.SpawnFromPool("Explosion", collision.transform.position, Quaternion.identity);
             explosion.GetComponent<Explosion>().OnObjectSpawn();
             collision.collider.gameObject.GetComponent<AlienShip>().GotShot();
         }
-        else if(collision.collider.tag == "EnemyBoss")
+        else if(collision.collider.CompareTag("EnemyBoss"))
         {
             GameObject explosion = objectPooler.SpawnFromPool("Explosion", collision.transform.position, Quaternion.identity);
             explosion.GetComponent<Explosion>().OnObjectSpawn();

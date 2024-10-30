@@ -14,19 +14,19 @@ public class Projectile : MonoBehaviour, IPooledObject
 
     void Update()
     {
-        transform.Translate(Vector3.left * speed * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime * Vector3.left);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Enemy")
+        if(collision.collider.CompareTag("Enemy"))
         {
             OnObjectReadyToEnqueue();
             GameObject explosion = objectPooler.SpawnFromPool("Explosion", collision.transform.position, Quaternion.identity);
             explosion.GetComponent<Explosion>().OnObjectSpawn();
             collision.collider.gameObject.GetComponent<AlienShip>().GotShot();
         }
-        else if(collision.collider.tag == "EnemyBoss")
+        else if(collision.collider.CompareTag("EnemyBoss"))
         {
             OnObjectReadyToEnqueue();
             GameObject explosion = objectPooler.SpawnFromPool("Explosion", collision.transform.position, Quaternion.identity);
@@ -38,7 +38,7 @@ public class Projectile : MonoBehaviour, IPooledObject
     public void OnObjectSpawn()
     {
         CancelInvoke();
-        Invoke("OnObjectReadyToEnqueue", lifeSpan);
+        Invoke(nameof(OnObjectReadyToEnqueue), lifeSpan);
     }
 
     public void OnObjectReadyToEnqueue()

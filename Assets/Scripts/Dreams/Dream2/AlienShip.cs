@@ -62,7 +62,7 @@ public class AlienShip : MonoBehaviour
 
     public void OnObjectSpawn(string tag)
     {
-        InvokeRepeating("Fire", 1f, fireRate);
+        InvokeRepeating(nameof(Fire), 1f, fireRate);
 
         returnTag = tag;
     }

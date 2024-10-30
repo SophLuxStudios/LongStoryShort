@@ -3,6 +3,7 @@ using UnityEngine;
 public class AlienObjects : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer[] glyphSR = new SpriteRenderer[3];
+    
     void Awake()
     {
         for(int i = 0; i < glyphSR.Length; i++)
@@ -13,8 +14,8 @@ public class AlienObjects : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("ChangeGlyphsX", 0.5f, 1f);
-        InvokeRepeating("ChangeGlyphsY", 1f, 1f);
+        InvokeRepeating(nameof(ChangeGlyphsX), 0.5f, 1f);
+        InvokeRepeating(nameof(ChangeGlyphsY), 1f, 1f);
     }
 
     private void ChangeGlyphsX()

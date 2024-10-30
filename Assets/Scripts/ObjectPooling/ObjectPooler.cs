@@ -71,9 +71,7 @@ public class ObjectPooler : MonoBehaviour
         }
 
         objectToSpawn.SetActive(true);
-        objectToSpawn.transform.position = position;
-        objectToSpawn.transform.rotation = rotation;
-
+        objectToSpawn.transform.SetPositionAndRotation(position, rotation);
         return objectToSpawn;
     }
 

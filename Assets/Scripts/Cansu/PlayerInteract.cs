@@ -3,7 +3,7 @@ using TMPro;
 
 public class PlayerInteract : MonoBehaviour
 {
-    //used Class'
+    //used classes
     private GameManager gameManager;
     private DialogueManager dialogueManager;
     private Tina tina;
@@ -17,6 +17,13 @@ public class PlayerInteract : MonoBehaviour
     private bool tinaWaiting;
     private bool tinaHasSitten;
     private string dreamSceneName;
+
+    //button labels
+    private const string interactLable = "INTERACT";
+    private const string nextLable = "NEXT";
+    private const string speakLable = "SPEAK";
+    private const string petHerLable = "PET HER";
+    private const string againLable = "AGAIN";
     
     //public variables
     public bool isTinaEvent;
@@ -110,7 +117,7 @@ public class PlayerInteract : MonoBehaviour
                     ChangeButtonText("FLY");
                     break;
                 default:
-                    ChangeButtonText("INTERACT");
+                    ChangeButtonText(interactLable);
                     break;
             }
         }
@@ -121,7 +128,7 @@ public class PlayerInteract : MonoBehaviour
             switch(NPCName)
             {
                 case "Whisper":
-                    ChangeButtonText("PET HER");
+                    ChangeButtonText(petHerLable);
                     interactedObject = other.gameObject;
                     break;
                 case "Tina":
@@ -143,16 +150,16 @@ public class PlayerInteract : MonoBehaviour
                     }
                     else
                     {
-                        ChangeButtonText("PET HER");
+                        ChangeButtonText(petHerLable);
                     }
                     interactedObject = other.gameObject;
                     break;
                 case "Sophia":
-                    ChangeButtonText("SPEAK");
+                    ChangeButtonText(speakLable);
                     interactedObject = other.gameObject;
                     break;
                 case "Caner":
-                    ChangeButtonText("SPEAK");
+                    ChangeButtonText(speakLable);
                     interactedObject = other.gameObject;
                     break;
                 case "Ish":
@@ -162,16 +169,16 @@ public class PlayerInteract : MonoBehaviour
                     }
                     else
                     {
-                        ChangeButtonText("SPEAK");
+                        ChangeButtonText(speakLable);
                     }
                     interactedObject = other.gameObject;
                     break;
                 case "BlackFigure":
-                    ChangeButtonText("SPEAK");
+                    ChangeButtonText(speakLable);
                     interactedObject = other.gameObject;
                     break;
                 default:
-                    ChangeButtonText("INTERACT");
+                    ChangeButtonText(interactLable);
                     break;
             }
 
@@ -189,13 +196,13 @@ public class PlayerInteract : MonoBehaviour
         switch(NPCName)
         {
             case "Whisper":
-                ChangeButtonText("PET HER\nAGAIN");
+                ChangeButtonText($"{petHerLable}\n{againLable}");
                 break;
             case "Tina":
-                ChangeButtonText("PET HER\nAGAIN");
+                ChangeButtonText($"{petHerLable}\n{againLable}");
                 break;
             default:
-                ChangeButtonText("SPEAK\nAGAIN");
+                ChangeButtonText($"{speakLable}\n{againLable}");
                 break;
         }
 
@@ -207,18 +214,20 @@ public class PlayerInteract : MonoBehaviour
 
     public void NPCEventDialogueEnded()
     {
-        switch(NPCName)
+        /*switch(NPCName)
         {
             case "Tina":
-                ChangeButtonText("INTERACT");
+                ChangeButtonText(interactLable);
                 break;
             case "Ish":
-                ChangeButtonText("INTERACT");
+                ChangeButtonText(interactLable);
                 break;
             default:
-                ChangeButtonText("INTERACT");
+                ChangeButtonText(interactLable);
                 break; 
-        }
+        }*/
+
+        ChangeButtonText(interactLable);
 
         if(gameManager.IsIndoorScene())
         {
@@ -228,7 +237,7 @@ public class PlayerInteract : MonoBehaviour
 
     public void NPCDialogueStarted()
     {
-        ChangeButtonText("NEXT");
+        ChangeButtonText(nextLable);
 
         //Disable movement when conversation starts
         gameManager.EnableMovement(false);
@@ -240,13 +249,13 @@ public class PlayerInteract : MonoBehaviour
         {
             if(dialogueManager.currentDialogue == null)
             {
-                ChangeButtonText("INTERACT");
+                ChangeButtonText(interactLable);
                 ClearDialoguePanel();
             }
-            else if(!dialogueManager.currentDialogue.atDialogue)
+            else if(!dialogueManager.currentDialogue.AtDialogue)
             {
                 //Debug.Log("exited.");
-                ChangeButtonText("INTERACT");
+                ChangeButtonText(interactLable);
                 ClearDialoguePanel();
             }
             
@@ -256,17 +265,17 @@ public class PlayerInteract : MonoBehaviour
                 dialogueManager.DisplayDialogue("Cansu", "Good girl here take it.");
                 tina.shouldFollowCansu = true;
                 quest.QuestCompleted();
-                Invoke("ClearDialoguePanel", 1.5f);
+                Invoke(nameof(ClearDialoguePanel), 1.5f);
             }
             else if(tinaWaiting && PlayerPrefs.GetString("CurrentQuest") == "Teach Tina to wait/come.")
             {
                 ChangeButtonText("TEACH\nCOME");
-                Invoke("ClearDialoguePanel", 1.5f);
+                Invoke(nameof(ClearDialoguePanel), 1.5f);
             }
             else if(PlayerPrefs.GetString("CurrentQuest") == "Drink with him.")
             {
-                ChangeButtonText("INTERACT");
-                Invoke("ClearDialoguePanel", 2f);
+                ChangeButtonText(interactLable);
+                Invoke(nameof(ClearDialoguePanel), 2f);
             }
         }
 
@@ -289,10 +298,10 @@ public class PlayerInteract : MonoBehaviour
             if(tinaWaiting)
             {
                 dialogueManager.DisplayDialogue("Cansu", "Tina come.\nGood girl.");
-                Invoke("ClearDialoguePanel", 1.5f);
+                Invoke(nameof(ClearDialoguePanel), 1.5f);
                 tina.shouldFollowCansu = true;
                 tinaWaiting = false;
-                ChangeButtonText("INTERACT");
+                ChangeButtonText(interactLable);
                 quest.QuestCompleted();
             }
             else
@@ -317,7 +326,7 @@ public class PlayerInteract : MonoBehaviour
             else if(PlayerPrefs.GetString("CurrentQuest") == "Teach Tina to sit.")
             {
                 dialogueManager.DisplayDialogue("Cansu", "Tina sit.");
-                Invoke("ClearDialoguePanel", 1.5f);
+                Invoke(nameof(ClearDialoguePanel), 1.5f);
                 tina.shouldFollowCansu = false;
                 tina.TinaSit(true);
                 tinaHasSitten = true;
@@ -327,12 +336,12 @@ public class PlayerInteract : MonoBehaviour
                 dialogueManager.DisplayDialogue("Cansu", "Bad Tina!!!!!!!!\nYou scared the shit out of me.");
                 tina.TinaGotCaught();
                 quest.QuestCompleted();
-                ChangeButtonText("PET HER");
+                ChangeButtonText(petHerLable);
             }
             else if(PlayerPrefs.GetString("CurrentQuest") == "Teach Tina to wait/come.")
             {
                 dialogueManager.DisplayDialogue("Cansu", "Tina wait.");
-                Invoke("ClearDialoguePanel", 1.5f);
+                Invoke(nameof(ClearDialoguePanel), 1.5f);
                 tina.TinaSit(true);
                 tina.shouldFollowCansu = false;
                 tinaWaiting = true;   
@@ -343,7 +352,7 @@ public class PlayerInteract : MonoBehaviour
             }
             else if(PlayerPrefs.GetString("CurrentQuest") == "Drink with him." && NPCName == "Ish")
             {
-                //ChangeButtonText("SPEAK");
+                //ChangeButtonText(speakLable);
                 dialogueManager.DisplayDialogue("Cansu", "I got us beers. No need to thank let's drink in silence");
                 interactedObject.GetComponent<CircleCollider2D>().enabled = false;
                 quest.QuestCompleted();
@@ -378,22 +387,22 @@ public class PlayerInteract : MonoBehaviour
                                 case 2:
                                 case 6:
                                     quest.QuestCompleted();
-                                    Invoke("LoadIndoorSceneFromBed", 1.5f);
+                                    Invoke(nameof(LoadIndoorSceneFromBed), 1.5f);
                                     break;
                                 case 3:
                                     quest.QuestCompleted();
                                     dreamSceneName = "SpaceRescueScene";
-                                    Invoke("LoadDreamScene", 1.5f);
+                                    Invoke(nameof(LoadDreamScene), 1.5f);
                                     break;
                                 case 4:
                                     quest.QuestCompleted();
                                     dreamSceneName = "SpaceShooterScene";
-                                    Invoke("LoadDreamScene", 1.5f);
+                                    Invoke(nameof(LoadDreamScene), 1.5f);
                                     break;
                                 case 5:
                                     quest.QuestCompleted();
                                     dreamSceneName = "MazeScene";
-                                    Invoke("LoadDreamScene", 1.5f);
+                                    Invoke(nameof(LoadDreamScene), 1.5f);
                                     break;
                             }
                         }
@@ -407,7 +416,7 @@ public class PlayerInteract : MonoBehaviour
                     if(PlayerPrefs.GetString("CurrentQuest") == "Make coffee.")
                     {
                         interactedObject.GetComponent<BoxCollider2D>().enabled = false;
-                        ChangeButtonText("INTERACT");
+                        ChangeButtonText(interactLable);
                         dialogue = "“Yummy.” Cansu said,\nrelatively in peace.";
                         dialogueManager.DisplayDialogue("NARRATOR", dialogue);
                         quest.QuestCompleted();
@@ -472,7 +481,7 @@ public class PlayerInteract : MonoBehaviour
                     dialogue = "Gross";
                     quest.QuestCompleted();
                     interactedObject.SetActive(false);
-                    Invoke("ClearDialoguePanel", 2f);
+                    Invoke(nameof(ClearDialoguePanel), 2f);
                     break;
                 case "Market":
                     if(PlayerPrefs.GetString("CurrentQuest") == "Buy beer.")
@@ -514,19 +523,19 @@ public class PlayerInteract : MonoBehaviour
 
     private void LoadIndoorSceneFromBed()
     {
-        PlayerPrefs.SetInt("Day", (PlayerPrefs.GetInt("Day", 1) + 1));
+        PlayerPrefs.SetInt("Day", PlayerPrefs.GetInt("Day", 1) + 1);
         gameManager.LoadIndoorScene("IndoorSleep");
     }
 
     private void LoadDreamScene()
     {
-        PlayerPrefs.SetInt("Day", (PlayerPrefs.GetInt("Day", 1) + 1));
+        PlayerPrefs.SetInt("Day", PlayerPrefs.GetInt("Day", 1) + 1);
         gameManager.LoadDreamScene(dreamSceneName);
     }
 
     private void NPCDialogueTrigger(DialogueTrigger dialogueTrigger)
     {
-        if(dialogueTrigger.dialogue.atDialogue)
+        if(dialogueTrigger.dialogue.AtDialogue)
         {
             dialogueManager.DisplayNextSentence();
         }
@@ -538,7 +547,7 @@ public class PlayerInteract : MonoBehaviour
 
     private void NPCEventTrigger(DialogueTrigger dialogueTrigger)
     {
-        if(dialogueTrigger.dialogue.atDialogue)
+        if(dialogueTrigger.dialogue.AtDialogue)
         {
             dialogueManager.DisplayNextSentence();
         }
@@ -567,6 +576,6 @@ public class PlayerInteract : MonoBehaviour
 
         dialogueManager.DisplayDialogue("NARRATOR", dialogue);
 
-        Invoke("ClearDialoguePanel", 2f);
+        Invoke(nameof(ClearDialoguePanel), 2f);
     }
 }

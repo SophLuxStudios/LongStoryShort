@@ -6,7 +6,7 @@ public class NarratorOurdoorDialogueTrigger : MonoBehaviour
 
     void Start()
     {
-        Invoke("TriggerNarratorDialogue", .5f);
+        Invoke(nameof(TriggerNarratorDialogue), .5f);
     }
 
     private void TriggerNarratorDialogue()

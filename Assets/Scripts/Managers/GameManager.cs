@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     //Singleton
     public static GameManager Instance;
 
-    //used Class'
+    //used classes
     private PlayerInteract playerInteract;
     private DialogueManager dialogueManager;
 
@@ -162,7 +162,7 @@ public class GameManager : MonoBehaviour
 
         if(PlayerPrefs.GetInt("CansuReturningHome") == 1 && sceneName == "IndoorScene")
         {
-            Invoke("TinaGoesDoorToKitchen", .5f);
+            Invoke(nameof(TinaGoesDoorToKitchen), .5f);
         }
     }
 
@@ -184,7 +184,7 @@ public class GameManager : MonoBehaviour
             panelCollider.enabled = false;
 
             //Move Camera and activate road block
-            Invoke("SpaceRescueMoveCamera", .5f);
+            Invoke(nameof(SpaceRescueMoveCamera), .5f);
         }
     }
 
@@ -305,21 +305,21 @@ public class GameManager : MonoBehaviour
 
     public bool IsIndoorScene()
     {
-        return sceneName == "IndoorScene" ? true : false;
+        return sceneName == "IndoorScene";
     }
 
     public bool IsOutdoorScene()
     {
-        return sceneName == "OutdoorScene" ? true : false;
+        return sceneName == "OutdoorScene";
     }
 
     public bool IsSpaceRescueScene()
     {
-        return sceneName == "SpaceRescueScene" ? true : false;
+        return sceneName == "SpaceRescueScene";
     }
 
     public bool IsMazeScene()
     {
-        return sceneName == "MazeScene" ? true : false;
+        return sceneName == "MazeScene";
     }
 }

@@ -75,6 +75,6 @@ public class AlienBoss : MonoBehaviour
 
     public void OnObjectSpawn()
     {
-        InvokeRepeating("Fire", .5f, fireRate);
+        InvokeRepeating(nameof(Fire), .5f, fireRate);
     }
 }

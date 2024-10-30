@@ -8,13 +8,13 @@ public class LoadingSceneManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI loadingText;
     int textCounter;
     private string[] text = new string[3];
-    private string[] startingText = new string[3]{"Becoming a Cansu...", "Making the player graceful...", "Smoothing the last flaws..."};
-    private string[] inOutText = new string[3]{"Opening the door...", "Walking the stairs...", "Taking a breath..."};
-    private string[] returnMenuText = new string[3]{"Player leaving...","NPCs crying in ruski...", "Making sure NPCs are OK..."};
-    private string[] dentistText = new string[3]{"Cansu going to the dentist...","It doesn't hurt at all...", "She is feeling much better..."};
-    private string[] sleepingText = new string[3]{"Cansu closing her eyes...","zzZZzZzZzzZzz...", "more zzZZzZzZzzZzz..."};
-    private string[] afterDreamText = new string[3]{"What was that?","Processing the weird dream...", "Getting up..."};
-    private string[] endGameText = new string[3]{"This was just the beginning...","Our story is getting longer...", "To Be Continued..."};
+    private readonly string[] startingText = new string[3]{"Becoming a Cansu...", "Making the player graceful...", "Smoothing the last flaws..."};
+    private readonly string[] inOutText = new string[3]{"Opening the door...", "Walking the stairs...", "Taking a breath..."};
+    private readonly string[] returnMenuText = new string[3]{"Player leaving...","NPCs crying in ruski...", "Making sure NPCs are OK..."};
+    private readonly string[] dentistText = new string[3]{"Cansu going to the dentist...","It doesn't hurt at all...", "She is feeling much better..."};
+    private readonly string[] sleepingText = new string[3]{"Cansu closing her eyes...","zzZZzZzZzzZzz...", "more zzZZzZzZzzZzz..."};
+    private readonly string[] afterDreamText = new string[3]{"What was that?","Processing the weird dream...", "Getting up..."};
+    private readonly string[] endGameText = new string[3]{"This was just the beginning...","Our story is getting longer...", "To Be Continued..."};
 
     void Start()
     {
@@ -63,9 +63,9 @@ public class LoadingSceneManager : MonoBehaviour
         }
 
         DisplayLoadingText();
-        Invoke("DisplayLoadingText", 1f);
-        Invoke("DisplayLoadingText", 2f);
-        Invoke("LoadScene", 3f);
+        Invoke(nameof(DisplayLoadingText), 1f);
+        Invoke(nameof(DisplayLoadingText), 2f);
+        Invoke(nameof(LoadScene), 3f);
     }
 
     private void DisplayLoadingText()

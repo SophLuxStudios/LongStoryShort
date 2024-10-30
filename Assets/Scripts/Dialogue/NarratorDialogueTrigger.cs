@@ -19,7 +19,7 @@ public class NarratorDialogueTrigger : MonoBehaviour
         }
         else
         {
-            Invoke("TriggerNarratorDialogue", .5f);
+            Invoke(nameof(TriggerNarratorDialogue), .5f);
         }
     }
 

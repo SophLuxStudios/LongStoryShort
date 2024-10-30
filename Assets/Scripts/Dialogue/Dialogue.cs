@@ -4,8 +4,8 @@ using UnityEngine;
 public class Dialogue
 {
     public string name;
-    public bool nPCSpeaks;
-    public bool atDialogue;
+    public bool NPCSpeaks;
+    public bool AtDialogue;
 
     [TextArea(3,5)]
     public string[] sentences0;

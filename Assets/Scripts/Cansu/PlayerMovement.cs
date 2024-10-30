@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
-    //used class'
+    //used classes
     private DialogueManager dialogueManager;
 
     //private fields

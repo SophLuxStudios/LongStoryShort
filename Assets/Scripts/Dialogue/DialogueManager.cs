@@ -5,7 +5,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    //used Class'
+    //used classes
     private PlayerInteract playerInteract;
     private Quest quest;
     private GameManager gameManager;
@@ -15,6 +15,12 @@ public class DialogueManager : MonoBehaviour
     private Animator animator;
     private bool isIndoorScene;
     [SerializeField] private bool isReadyToMove;
+
+    //button labels
+    private const string interactLable = "INTERACT";
+    private const string endLable = "END";
+    private const string nextLable = "NEXT";
+
 
     //public variables
     public bool isEventOn;
@@ -66,7 +72,7 @@ public class DialogueManager : MonoBehaviour
 
     public void InvokeClearDisplay(float seconds)
     {
-        Invoke("ClearDialogueDisplay", seconds);
+        Invoke(nameof(ClearDialogueDisplay), seconds);
     }
 
     IEnumerator TypeDialogue (string dialogue)
@@ -85,7 +91,7 @@ public class DialogueManager : MonoBehaviour
         sentences.Clear();
 
         currentDialogue = dialogue;
-        currentDialogue.atDialogue = true;
+        currentDialogue.AtDialogue = true;
 
         playerInteract.NPCDialogueStarted();
 
@@ -96,21 +102,21 @@ public class DialogueManager : MonoBehaviour
             case 0:
                 foreach(string sentence in dialogue.sentences0)
                 {
-                    dialogue.nPCSpeaks = true;
+                    dialogue.NPCSpeaks = true;
                     sentences.Enqueue(sentence);
                 }
                 break;
             case 1:
                 foreach(string sentence in dialogue.sentences1)
                 {
-                    dialogue.nPCSpeaks = false;
+                    dialogue.NPCSpeaks = false;
                     sentences.Enqueue(sentence);
                 }
                 break;
             case 2:
                 foreach(string sentence in dialogue.sentences2)
                 {
-                    dialogue.nPCSpeaks = true;
+                    dialogue.NPCSpeaks = true;
                     sentences.Enqueue(sentence);
                 }
                 break;
@@ -126,13 +132,13 @@ public class DialogueManager : MonoBehaviour
         sentences.Clear();
 
         currentDialogue = dialogue;
-        currentDialogue.atDialogue = true;
+        currentDialogue.AtDialogue = true;
 
         playerInteract.NPCDialogueStarted();
 
         foreach(string sentence in dialogue.eventSentences)
         {
-            dialogue.nPCSpeaks = false;
+            dialogue.NPCSpeaks = false;
             sentences.Enqueue(sentence);
         }
 
@@ -172,31 +178,31 @@ public class DialogueManager : MonoBehaviour
         }
         else if(sentences.Count == 1)
         {
-            buttonText.text = "END";
+            buttonText.text = endLable;
         }
 
         string sentence = sentences.Dequeue();
         
-        if(currentDialogue.nPCSpeaks)
+        if(currentDialogue.NPCSpeaks)
         {
             DisplayDialogue(currentDialogue.name, sentence);
 
-            currentDialogue.nPCSpeaks = false;
+            currentDialogue.NPCSpeaks = false;
         }
         else
         {
             DisplayDialogue("Cansu", sentence);
 
-            currentDialogue.nPCSpeaks = true;
+            currentDialogue.NPCSpeaks = true;
         }
     }
 
     private void EndNPCDialogue()
     {
-        currentDialogue.atDialogue = false;
+        currentDialogue.AtDialogue = false;
         currentDialogue = null;
 
-        Debug.Log("DialogueManager.EndNPCDialogue() has run");
+        Debug.Log("DialogueManager.EndNPCDialogue() has been executed.");
 
         playerInteract.NPCDialogueEnded();
 
@@ -208,7 +214,7 @@ public class DialogueManager : MonoBehaviour
 
     private void EndNPCEventDialogue()
     {
-        currentDialogue.atDialogue = false;
+        currentDialogue.AtDialogue = false;
         currentDialogue = null;
 
         if(gameManager.IsSpaceRescueScene())
@@ -228,9 +234,9 @@ public class DialogueManager : MonoBehaviour
         sentences.Clear();
 
         currentDialogue = dialogue;
-        currentDialogue.atDialogue = true;
+        currentDialogue.AtDialogue = true;
 
-        buttonText.text = "NEXT";
+        buttonText.text = nextLable;
         playerInteract.isNarratorDialogue = true;
 
         gameManager.EnableMovement(false);
@@ -250,7 +256,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     foreach(string sentence in dialogue.sentences0)
                     {
-                        dialogue.nPCSpeaks = true;
+                        dialogue.NPCSpeaks = true;
                         sentences.Enqueue(sentence);
                     }
                     break;
@@ -263,7 +269,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     foreach(string sentence in dialogue.sentences1)
                     {
-                        dialogue.nPCSpeaks = false;
+                        dialogue.NPCSpeaks = false;
                         sentences.Enqueue(sentence);
                     }
                     break;
@@ -276,7 +282,7 @@ public class DialogueManager : MonoBehaviour
                     foreach(string sentence in dialogue.sentences2)
                     {
 
-                        dialogue.nPCSpeaks = true;
+                        dialogue.NPCSpeaks = true;
                         sentences.Enqueue(sentence);
                     }
                     break;
@@ -291,7 +297,7 @@ public class DialogueManager : MonoBehaviour
             
             foreach(string sentence in dialogue.eventSentences)
             {
-                dialogue.nPCSpeaks = true;
+                dialogue.NPCSpeaks = true;
                 sentences.Enqueue(sentence);
             }
         }
@@ -317,10 +323,10 @@ public class DialogueManager : MonoBehaviour
                 gameManager.EndGame();
             }
 
-            currentDialogue.atDialogue = false;
+            currentDialogue.AtDialogue = false;
             currentDialogue = null;
 
-            buttonText.text = "INTERACT";
+            buttonText.text = interactLable;
             playerInteract.isNarratorDialogue = false;
 
             isReadyToMove = true;
@@ -331,7 +337,7 @@ public class DialogueManager : MonoBehaviour
         }
         else if(sentences.Count == 1)
         {
-            buttonText.text = "END";
+            buttonText.text = endLable;
         }
 
         string sentence = sentences.Dequeue();

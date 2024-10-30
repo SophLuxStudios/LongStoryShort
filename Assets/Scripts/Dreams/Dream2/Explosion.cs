@@ -3,6 +3,7 @@ using UnityEngine;
 public class Explosion : MonoBehaviour, IPooledObject
 {
     private Animator animator;
+    
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -12,7 +13,7 @@ public class Explosion : MonoBehaviour, IPooledObject
     {
         animator.Play("ExplosionAnimation");
 
-        Invoke("OnObjectReadyToEnqueue", 1.33f);
+        Invoke(nameof(OnObjectReadyToEnqueue), 1.33f);
     }
 
     public void OnObjectReadyToEnqueue()

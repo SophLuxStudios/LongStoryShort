@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerTrigger : MonoBehaviour
 {
-    //used Class'
+    //used classes
     private DialogueManager dialogueManager;
     private Quest quest;
 
